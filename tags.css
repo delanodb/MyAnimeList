@@ -127,4 +127,6 @@
 }
 
 /* /r/anime awards */
-
+.data.tags span a[href*="=Best%20Actiob%20"]:after {
+	content: "/r/anime awards"
+}
