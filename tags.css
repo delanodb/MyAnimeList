@@ -121,7 +121,6 @@
 .data.tags span a[href*="=Animation%20of%20the%20Year%20Grand%20Prix"],
 .data.tags span a[href*="=Best%20Entry"],
 .data.tags span a[href*="=Notable%20Entry"],
-.data.tags span a[href*="=Best%20Character%20Designer"],
 .data.tags span a[href*="=Best%20Music"]{
   background: #d60076; color: white !important
 }
@@ -138,9 +137,6 @@
 }
 .data.tags span a[href*="=Notable%20Entry"]:after {
 	content: "Tokyo Anime Awards Festival"
-}
-.data.tags span a[href*="=Best%20Character%20Designer"]:after {
-	content: "Tokyo International Anime Fair"
 }
 .data.tags span a[href*="=Best%20Music"]:after {
 	content: "Tokyo International Anime Fair"
