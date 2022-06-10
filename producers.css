@@ -1,0 +1,23 @@
+/* Studio Ghibli */
+.data.studio span a[href$="/21"] { background: #079cec; color: white !important }
+
+/* A-1 Pictures */
+.data.studio span a[href$="/56"] { background: #5186c7; color: white !important }
+
+/* Studio Madhouse */
+.data.studio span a[href$="/11"] { background: #c0001d; color: white !important }
+
+/* Studio MAPPA */
+.data.studio span a[href$="/569"] { background: #006836; color: white !important }
+
+/* Bones */
+.data.studio span a[href$="/4"] { background: #ffdf00; color: black !important }
+
+/* Kyoto Animation */
+.data.studio span a[href$="/2"] { background: white; color: #e84c18 !important }
+
+/* White Fox */
+.data.studio span a[href$="/314"] { background: white; color: #0482d0 !important }
+
+/* Studio Deen */
+.data.studio span a[href$="/37"] { background: white; color: #1180c5 !important }
