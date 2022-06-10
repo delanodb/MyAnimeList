@@ -117,11 +117,7 @@
 }
 
 /* Tokyo Anime Awards Festival awards / Tokyo International Anime Fair awards TAG Name */
-.data.tags span a[href*="=Animation%20of%20the%20Year"],
-.data.tags span a[href*="=Animation%20of%20the%20Year%20Grand%20Prix"],
-.data.tags span a[href*="=Best%20Entry"],
-.data.tags span a[href*="=Notable%20Entry"],
-.data.tags span a[href*="=Best%20Music"]{
+.data.tags span a[href*="=Animation%20of%20the%20Year"]{
   background: #d60076; color: white !important
 }
 
@@ -129,39 +125,6 @@
 .data.tags span a[href*="=Animation%20of%20the%20Year"]:after {
 	content: "Tokyo Anime Awards Festival"
 }
-.data.tags span a[href*="=Animation%20of%20the%20Year%20Grand%20Prix"]:after {
-	content: "Tokyo International Anime Fair"
-}
-.data.tags span a[href*="=Best%20Entry"]:after {
-	content: "Tokyo International Anime Fair"
-}
-.data.tags span a[href*="=Notable%20Entry"]:after {
-	content: "Tokyo Anime Awards Festival"
-}
-.data.tags span a[href*="=Best%20Music"]:after {
-	content: "Tokyo International Anime Fair"
-}
 
-/* Japan Academy Film Prize awards TAG Name */
-.data.tags span a[href*="=Best%20Animation%20of%20the%20Year"],
-.data.tags span a[href*="=Excellent%20Animation%20of%20the%20Year"] {
-  background: #664e38; color: white !important
-}
+/* /r/anime awards */
 
-/* Japan Academy Film Prize awards TAG Description */
-.data.tags span a[href*="=Best%20Animation%20of%20the%20Year"]:after {
-	content: "Japan Academy Film Prize"
-}
-.data.tags span a[href*="=Excellent%20Animation%20of%20the%20Year"]:after {
-	content: "Japan Academy Film Prize"
-}
-
-/* Mainichi Film Awards TAG Name */
-.data.tags span a[href*="=Best%20Animation%20Film"] {
-  background: #ef3244; color: white !important	
-}
-
-/* Mainichi Film Awards TAG Name Description */
-.data.tags span a[href*="=Best%20Animation%20Film"]:after {
-	content: "Mainichi Film Awards"
-}
