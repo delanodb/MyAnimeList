@@ -112,7 +112,7 @@
 	content: "Crunchyroll"
 }
 
-/* Tokyo Anime Awards TAG Name */
+/* Tokyo Anime Awards Festival awards / Tokyo International Anime Fair awards TAG Name */
 .data.tags span a[href*="=Animation%20of%20the%20Year"],
 .data.tags span a[href*="=Animation%20of%20the%20Year%20Grand%20Prix"],
 .data.tags span a[href*="=Best%20Entry"],
@@ -122,7 +122,7 @@
   background: #d60076; color: white !important
 }
 
-/* Tokyo Anime Awards TAG Description */
+/* Tokyo Anime Awards Festival awards / Tokyo International Anime Fair awards TAG Description */
 .data.tags span a[href*="=Animation%20of%20the%20Year"]:after {
 	content: "Tokyo Anime Awards Festival"
 }
@@ -142,18 +142,31 @@
 	content: "Tokyo International Anime Fair"
 }
 
-/* Japan Academy Film Prize TAG Name */
+/* Japan Academy Film Prize awards TAG Name */
 .data.tags span a[href*="=Best%20Animation%20of%20the%20Year"],
 .data.tags span a[href*="=Excellent%20Animation%20of%20the%20Year"] {
-  background: #d60076; color: white !important
+  background: #664e38; color: white !important
 }
 
-/* Japan Academy Film Prize TAG Description */
-}
+/* Japan Academy Film Prize awards TAG Description */
 .data.tags span a[href*="=Best%20Animation%20of%20the%20Year"]:after {
 	content: "Japan Academy Film Prize"
 }
 .data.tags span a[href*="=Excellent%20Animation%20of%20the%20Year"]:after {
 	content: "Japan Academy Film Prize"
+}
+
+/* Mainichi Film Awards TAG Name */
+.data.tags span a[href*="=Best%20Animation%20Film"],
+.data.tags span a[href*="=Ōfuji%20Noburō%20Award"] {
+  background: #ef3244; color: white !important	
+}
+
+/* Mainichi Film Awards TAG Name Description */
+.data.tags span a[href*="=Best%20Animation%20Film"]:after {
+	content: "Mainichi Film Awards"
+}
+.data.tags span a[href*="=Ōfuji%20Noburō%20Award"]:after {
+	content: "Mainichi Film Awards"
 }
 
