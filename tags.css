@@ -157,8 +157,7 @@
 }
 
 /* Mainichi Film Awards TAG Name */
-.data.tags span a[href*="=Best%20Animation%20Film"],
-.data.tags span a[href*="=Ōfuji%20Noburō%20Award"] {
+.data.tags span a[href*="=Best%20Animation%20Film"] {
   background: #ef3244; color: white !important	
 }
 
@@ -166,7 +165,3 @@
 .data.tags span a[href*="=Best%20Animation%20Film"]:after {
 	content: "Mainichi Film Awards"
 }
-.data.tags span a[href*="=Ōfuji%20Noburō%20Award"]:after {
-	content: "Mainichi Film Awards"
-}
-
