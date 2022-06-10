@@ -127,6 +127,9 @@
 }
 
 /* /r/anime awards */
-.data.tags span a[href*="=Best%20Actiob%20"]:after {
+.data.tags span a[href*="=Best%20Action%20"]{
+  background: #d60076; color: white !important
+}
+.data.tags span a[href*="=Best%20Action%20"]:after {
 	content: "/r/anime awards"
 }
