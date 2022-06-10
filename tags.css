@@ -126,4 +126,10 @@
 	content: "Tokyo Anime Awards Festival"
 }
 
-data.tags span a[href*="=test"]:before{content:"klaasje";font-size:18px}
+
+.data.tags span a[href*="=Best%20action"]{
+  background: #d60076; color: white !important
+}
+.data.tags span a[href*="=Best%20action"]:after {
+	content: "fdfd"
+}
