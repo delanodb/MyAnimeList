@@ -25,6 +25,7 @@
 .data.tags span a[href*="=Best%20Antagonist"],
 .data.tags span a[href*="=Best%20Character%20Design"],
 .data.tags span a[href*="=Best%20Protagonist"],
+.data.tags span a[href*="=Best%20Romance"],
 .data.tags span a[href*="=Best%20Fantasy"]{
   background: #DF6300; color: white !important
 }
@@ -109,6 +110,9 @@
 	content: "Crunchyroll"
 }
 .data.tags span a[href*="=Best%20Fantasy"]:after {
+	content: "Crunchyroll"
+}
+.data.tags span a[href*="=Best%20Romance"]:after {
 	content: "Crunchyroll"
 }
 
