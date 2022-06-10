@@ -126,7 +126,4 @@
 	content: "Tokyo Anime Awards Festival"
 }
 
-/* /r/anime awards */
-.data.tags span a[href*="=Best‏‏‎ ‎Action"]{
-  background: #d60076; color: white !important
-}
+data.tags span a[href*="=test"]:before{content:"klaasje";font-size:18px}
