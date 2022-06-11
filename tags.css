@@ -179,4 +179,25 @@
 /r%20Movie%20of%20the%20Year
 /r%20Anime%20of%20the%20Year
 
-
+.data.tags span a[href*="=/r%20Best%20Action"],
+.data.tags span a[href*="=/r%20Best%20Adventure"],
+.data.tags span a[href*="=/r%20Best%20Comedy"],
+.data.tags span a[href*="=/r%20Best%20Drama"],
+.data.tags span a[href*="=/r%20Best%20Romance"],
+.data.tags span a[href*="=/r%20Best%20Slice%20of%20Life"],
+.data.tags span a[href*="=/r%20Best%20Suspense"],
+.data.tags span a[href*="=/r%20Main%20Dramatic"],
+.data.tags span a[href*="=/r%20Main%20Comedic"],
+.data.tags span a[href*="=/r%20Best%20Supporting%20Character"],
+.data.tags span a[href*="=/r%20Best%20Antagonist"],
+.data.tags span a[href*="=/r%20Best%20Cast"],
+.data.tags span a[href*="=/r%20Best%20Animation"],
+.data.tags span a[href*="=/r%20Best%20Character%20Design"],
+.data.tags span a[href*="=/r%20Best%20OST"],
+.data.tags span a[href*="=/r%20Best%20OP"],
+.data.tags span a[href*="=/r%20Best%20ED"],
+.data.tags span a[href*="=/r%20Short%20of%20the%20Year"],
+.data.tags span a[href*="=/r%20Movie%20of%20the%20Year"],
+.data.tags span a[href*="=/r%20Anime%20of%20the%20Year"]{
+  background: #6a9ee7; color: white !important
+}
