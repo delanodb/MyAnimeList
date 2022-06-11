@@ -152,3 +152,31 @@
 .data.tags span a[href*="=Best%20Song"]:after {
 	content: "Anime Grand Prix [Best OP or ED Song] (Animage)"
 }
+
+
+/* /r/anime awards */
+/r%20Best%20Action
+/r%20Best%20Adventure
+/r%20Best%20Comedy
+/r%20Best%20Drama
+/r%20Best%20Romance
+/r%20Best%20Slice%20of%20Life
+/r%20Best%20Suspense
+
+/r%20Main%20Dramatic
+/r%20Main%20Comedic
+/r%20Best%20Supporting%20Character
+/r%20Best%20Antagonist
+/r%20Best%20Cast
+
+/r%20Best%20Animation
+/r%20Best%20Character%20Design
+/r%20Best%20OST
+/r%20Best%20OP
+/r%20Best%20ED
+
+/r%20Short%20of%20the%20Year
+/r%20Movie%20of%20the%20Year
+/r%20Anime%20of%20the%20Year
+
+
