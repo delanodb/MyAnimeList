@@ -32,88 +32,88 @@
 
 /* Crunchyroll Anime Awards TAG Description */
 .data.tags span a[href*="=Anime%20of%20the%20Year"]:after {
-	content: "Crunchyroll"
+	content: "Crunchyroll Anime Awards"
 }
 .data.tags span a[href*="=Best%20Animation"]:after {
-	content: "Crunchyroll"
+	content: "Crunchyroll Anime Awards"
 }
 .data.tags span a[href*="=Best%20Boy"]:after {
-	content: "Crunchyroll"
+	content: "Crunchyroll Anime Awards"
 }
 .data.tags span a[href*="=Best%20Couple"]:after {
-	content: "Crunchyroll"
+	content: "Crunchyroll Anime Awards"
 }
 .data.tags span a[href*="=Best%20Ending"]:after {
-	content: "Crunchyroll"
+	content: "Crunchyroll Anime Awards"
 }
 .data.tags span a[href*="=Best%20Opening"]:after {
-	content: "Crunchyroll"
+	content: "Crunchyroll Anime Awards"
 }
 .data.tags span a[href*="=Most%20Heartwarming%20Scene"]:after {
-	content: "Crunchyroll"
+	content: "Crunchyroll Anime Awards"
 }
 .data.tags span a[href*="=Best%20Action"]:after {
-	content: "Crunchyroll"
+	content: "Crunchyroll Anime Awards"
 }
 .data.tags span a[href*="=Best%20Fight%20Scene"]:after {
-	content: "Crunchyroll"
+	content: "Crunchyroll Anime Awards"
 }
 .data.tags span a[href*="=Best%20Drama"]:after {
-	content: "Crunchyroll"
+	content: "Crunchyroll Anime Awards"
 }
 .data.tags span a[href*="=Villain%20of%20the%20Year"]:after {
-	content: "Crunchyroll"
+	content: "Crunchyroll Anime Awards"
 }
 .data.tags span a[href*="=Best%20Comedy"]:after {
-	content: "Crunchyroll"
+	content: "Crunchyroll Anime Awards"
 }
 .data.tags span a[href*="=Best%20Girl"]:after {
-	content: "Crunchyroll"
+	content: "Crunchyroll Anime Awards"
 }
 .data.tags span a[href*="=Hero%20of%20the%20Year"]:after {
-	content: "Crunchyroll"
+	content: "Crunchyroll Anime Awards"
 }
 .data.tags span a[href*="=Best%20Score"]:after {
-	content: "Crunchyroll"
+	content: "Crunchyroll Anime Awards"
 }
 .data.tags span a[href*="=Best%20Hero"]:after {
-	content: "Crunchyroll"
+	content: "Crunchyroll Anime Awards"
 }
 .data.tags span a[href*="=Best%20Villain"]:after {
-	content: "Crunchyroll"
+	content: "Crunchyroll Anime Awards"
 }
 .data.tags span a[href*="=Best%20Score"]:after {
-	content: "Crunchyroll"
+	content: "Crunchyroll Anime Awards"
 }
 .data.tags span a[href*="=Best%20Hero"]:after {
-	content: "Crunchyroll"
+	content: "Crunchyroll Anime Awards"
 }
 .data.tags span a[href*="=Best%20CGI"]:after {
-	content: "Crunchyroll"
+	content: "Crunchyroll Anime Awards"
 }
 .data.tags span a[href*="=Best%20Continuing%20Series"]:after {
-	content: "Crunchyroll"
+	content: "Crunchyroll Anime Awards"
 }
 .data.tags span a[href*="=Best%20Film"]:after {
-	content: "Crunchyroll"
+	content: "Crunchyroll Anime Awards"
 }
 .data.tags span a[href*="=Best%20Slice%20of%20Life"]:after {
-	content: "Crunchyroll"
+	content: "Crunchyroll Anime Awards"
 }
 .data.tags span a[href*="=Best%20Antagonist"]:after {
-	content: "Crunchyroll"
+	content: "Crunchyroll Anime Awards"
 }
 .data.tags span a[href*="=Best%20Character%20Design"]:after {
-	content: "Crunchyroll"
+	content: "Crunchyroll Anime Awards"
 }
 .data.tags span a[href*="=Best%20Protagonist"]:after {
-	content: "Crunchyroll"
+	content: "Crunchyroll Anime Awards"
 }
 .data.tags span a[href*="=Best%20Fantasy"]:after {
-	content: "Crunchyroll"
+	content: "Crunchyroll Anime Awards"
 }
 .data.tags span a[href*="=Best%20Romance"]:after {
-	content: "Crunchyroll"
+	content: "Crunchyroll Anime Awards"
 }
 
 /* Tokyo Anime Awards Festival awards / Tokyo International Anime Fair awards TAG Name */
@@ -123,8 +123,39 @@
 
 /* Tokyo Anime Awards Festival awards / Tokyo International Anime Fair awards TAG Description */
 .data.tags span a[href*="=Animation%20of%20the%20Year"]:after {
-	content: "Tokyo Anime Awards Festival"
+	content: "Tokyo Anime Awards (Tokyo International Anime Fair)"
 }
 
-/* /r/anime awards */
+/* Anime Grand Prix */
+.data.tags span a[href*="=Anime%20Grand%20Prix%1st"]{
+  background: #CBC3E3; color: white !important
+}
+.data.tags span a[href*="=Anime%20Grand%20Prix%2nd"]{
+  background: #CBC3E3; color: white !important
+}
+.data.tags span a[href*="=Best%20Male%20Character"]{
+  background: #CBC3E3; color: white !important
+}
+.data.tags span a[href*="=Best%20Female%20Character"]{
+  background: #CBC3E3; color: white !important
+}
+.data.tags span a[href*="=Best%20Song"]{
+  background: #CBC3E3; color: white !important
+}
 
+
+.data.tags span a[href*="==Anime%20Grand%20Prix%1st"]:after {
+	content: "Anime Grand Prix (1st Position) by (Aninmage)"
+}
+.data.tags span a[href*="=Anime%20Grand%20Prix%2nd"]:after {
+	content: "Anime Grand Prix (2nd Position) by (Aninmage)"
+}
+.data.tags span a[href*="==Best%20Male%20Character"]:after {
+	content: "Anime Grand Prix Best Male Character by (Aninmage)"
+}
+.data.tags span a[href*="=Best%20Female%20Character"]:after {
+	content: "Anime Grand Prix Best Female Character by (Aninmage)"
+}
+.data.tags span a[href*="=Best%20Song"]:after {
+	content: "Anime Grand Prix Best Song by (Aninmage)"
+}
