@@ -127,20 +127,20 @@
 }
 
 /* Anime Grand Prix */
-.data.tags span a[href*="=Anime%20Grand%20Prix%1st"]{
-  background: #CBC3E3; color: white !important
+.data.tags span a[href*="=Anime%20Grand%20Prix%201st"]{
+  background: #CBC3E3; color: black !important
 }
-.data.tags span a[href*="=Anime%20Grand%20Prix%2nd"]{
-  background: #CBC3E3; color: white !important
+.data.tags span a[href*="=Anime%20Grand%20Prix%202nd"]{
+  background: #CBC3E3; color: black !important
 }
 .data.tags span a[href*="=Best%20Male%20Character"]{
-  background: #CBC3E3; color: white !important
+  background: #CBC3E3; color: black !important
 }
 .data.tags span a[href*="=Best%20Female%20Character"]{
-  background: #CBC3E3; color: white !important
+  background: #CBC3E3; color: black !important
 }
 .data.tags span a[href*="=Best%20Song"]{
-  background: #CBC3E3; color: white !important
+  background: #CBC3E3; color: black !important
 }
 
 .data.tags span a[href*="==Anime%20Grand%20Prix%201st"]:after {
