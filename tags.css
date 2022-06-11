@@ -168,7 +168,6 @@
 .data.tags span a[href*="=r%20Best%20OST"],
 .data.tags span a[href*="=r%20Best%20OP"],
 .data.tags span a[href*="=r%20Best%20ED"],
-.data.tags span a[href*="=r%20Short%20of%20the%20Year"],
 .data.tags span a[href*="=r%20Movie%20of%20the%20Year"],
 .data.tags span a[href*="=r%20Anime%20of%20the%20Year"]{
   background: #6a9ee7; color: white !important
@@ -176,5 +175,5 @@
 
 .data.tags span a[href*="=kaas"],
 {
-  background: #ffffff; color: white !important
+  background: #6a9ee7; color: white !important
 }
