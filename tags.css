@@ -189,3 +189,6 @@
 .data.tags span a[href*="=r%20Best%20Action"]{
   background: #6a9ee7; color: white !important
 }
+.data.tags span a[href*="=Kaas"]{
+  background: #6a9ee7; color: white !important
+}
