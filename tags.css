@@ -154,9 +154,15 @@
 }
 
 /* /r/anime awards */
-.data.tags span a[href*="=r%20Best%20Action"],
-.data.tags span a[href*="=r%20Best%20Adventure"],
-.data.tags span a[href*="=r%20Best%20Comedy"],
+.data.tags span a[href*="=r%20Best%20Action"]{
+  background: #6a9ee7; color: white !important
+}
+.data.tags span a[href*="=r%20Best%20Adventure"]{
+  background: #6a9ee7; color: white !important
+}
+.data.tags span a[href*="=r%20Best%20Comedy"]{
+  background: #6a9ee7; color: white !important
+}
 .data.tags span a[href*="=r%20Best%20Drama"],
 .data.tags span a[href*="=r%20Best%20Romance"],
 .data.tags span a[href*="=r%20Best%20Slice%20of%20Life"],
