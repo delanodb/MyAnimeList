@@ -143,13 +143,13 @@
   background: #CBC3E3; color: black !important
 }
 
-.data.tags span a[href*="==Anime%20Grand%20Prix%201st"]:after {
+.data.tags span a[href*="=Anime%20Grand%20Prix%201st"]:after {
 	content: "Anime Grand Prix (1st Position) by (Aninmage)"
 }
 .data.tags span a[href*="=Anime%20Grand%20Prix%202nd"]:after {
 	content: "Anime Grand Prix (2nd Position) by (Aninmage)"
 }
-.data.tags span a[href*="==Best%20Male%20Character"]:after {
+.data.tags span a[href*="=Best%20Male%20Character"]:after {
 	content: "Anime Grand Prix Best Male Character by (Aninmage)"
 }
 .data.tags span a[href*="=Best%20Female%20Character"]:after {
