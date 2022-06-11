@@ -127,34 +127,28 @@
 }
 
 /* Anime Grand Prix */
-.data.tags span a[href*="=Anime%20Grand%20Prix%201st"]{
-  background: #CBC3E3; color: black !important
-}
-.data.tags span a[href*="=Anime%20Grand%20Prix%202nd"]{
-  background: #CBC3E3; color: black !important
+.data.tags span a[href*="=Anime%20Grand%20Prix"]{
+  background: #7000d9; color: white !important
 }
 .data.tags span a[href*="=Best%20Male%20Character"]{
-  background: #CBC3E3; color: black !important
+  background: #7000d9; color: white !important
 }
 .data.tags span a[href*="=Best%20Female%20Character"]{
-  background: #CBC3E3; color: black !important
+  background: #7000d9; color: white !important
 }
 .data.tags span a[href*="=Best%20Song"]{
-  background: #CBC3E3; color: black !important
+  background: #7000d9; color: white !important
 }
 
-.data.tags span a[href*="=Anime%20Grand%20Prix%201st"]:after {
-	content: "Anime Grand Prix (1st Position) by (Aninmage)"
-}
-.data.tags span a[href*="=Anime%20Grand%20Prix%202nd"]:after {
-	content: "Anime Grand Prix (2nd Position) by (Aninmage)"
+.data.tags span a[href*="=Anime%20Grand%20Prix"]:after {
+	content: "Anime Grand Prix 1st or 2nd Position (Aninmage)"
 }
 .data.tags span a[href*="=Best%20Male%20Character"]:after {
-	content: "Anime Grand Prix Best Male Character by (Aninmage)"
+	content: "Anime Grand Prix Best Male Character (Aninmage)"
 }
 .data.tags span a[href*="=Best%20Female%20Character"]:after {
-	content: "Anime Grand Prix Best Female Character by (Aninmage)"
+	content: "Anime Grand Prix Best Female Character (Aninmage)"
 }
 .data.tags span a[href*="=Best%20Song"]:after {
-	content: "Anime Grand Prix Best Song by (Aninmage)"
+	content: "Anime Grand Prix Best Song (Aninmage)"
 }
