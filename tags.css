@@ -141,14 +141,14 @@
 }
 
 .data.tags span a[href*="=Anime%20Grand%20Prix"]:after {
-	content: "Anime Grand Prix 1st or 2nd Position (Aninmage)"
+	content: "Anime Grand Prix 1st or 2nd Position (Animage)"
 }
 .data.tags span a[href*="=Best%20Male%20Character"]:after {
-	content: "Anime Grand Prix Best Male Character (Aninmage)"
+	content: "Anime Grand Prix Best Male Character (Animage)"
 }
 .data.tags span a[href*="=Best%20Female%20Character"]:after {
-	content: "Anime Grand Prix Best Female Character (Aninmage)"
+	content: "Anime Grand Prix Best Female Character (Animage)"
 }
 .data.tags span a[href*="=Best%20Song"]:after {
-	content: "Anime Grand Prix Best OP or ED Song (Aninmage)"
+	content: "Anime Grand Prix Best OP or ED Song (Animage)"
 }
