@@ -154,6 +154,21 @@
 }
 
 
+
+/* ------------------------------ */
+.data.tags span a[href*="=r%20Best%20Action"]{
+  background: #6a9ee7; color: white !important
+}
+.data.tags span a[href*="=Kaas"]{
+  background: #6a9ee7; color: white !important
+}
+.data.tags span a[href*="=r/%20Best%20Action"]{
+  background: #6a9ee7; color: white !important
+}
+.data.tags span a[href*="=/r%20Best%20Action"]{
+  background: #6a9ee7; color: white !important
+}
+
 /* /r/anime awards */
 .data.tags span a[href*="=r/%20Best%20Action"],
 .data.tags span a[href*="=/r%20Best%20Action"],
@@ -177,18 +192,5 @@
 .data.tags span a[href*="=/r%20Short%20of%20the%20Year"],
 .data.tags span a[href*="=/r%20Movie%20of%20the%20Year"],
 .data.tags span a[href*="=/r%20Anime%20of%20the%20Year"]{
-  background: #6a9ee7; color: white !important
-}
-
-.data.tags span a[href*="=r/%20Best%20Action"]{
-  background: #6a9ee7; color: white !important
-}
-.data.tags span a[href*="=/r%20Best%20Action"]{
-  background: #6a9ee7; color: white !important
-}
-.data.tags span a[href*="=r%20Best%20Action"]{
-  background: #6a9ee7; color: white !important
-}
-.data.tags span a[href*="=Kaas"]{
   background: #6a9ee7; color: white !important
 }
