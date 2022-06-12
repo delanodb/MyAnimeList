@@ -422,3 +422,16 @@ body::before {
 .header { margin-top: calc(var(--banner-height) - 36px); }
 .list-stats { top: calc(var(--banner-height) + 98px); }
 /*------------------------E-N-D-*/
+
+/*-S-T-A-R-T--------------------*\
+| Transparent List Rows          |
+\*------------------------------*/
+:root {
+	/* Change colour here */
+	--row-tint: rgba(33,33,33,0.8);
+}
+
+.list-item, .data.priority, .data.number, .data.status:before, .data.status:after {
+	background: linear-gradient(var(--row-tint),var(--row-tint)), var(--background) no-repeat center / cover fixed transparent !important;
+}
+/*------------------------E-N-D-*/
