@@ -204,3 +204,7 @@
 .data.tags span a[href*="=FavoE8"]:before{content:"8";font-size:11px}
 .data.tags span a[href*="=FavoE9"]:before{content:"9";font-size:11px}
 .data.tags span a[href*="=FavoE10"]:before{content:"10";font-size:11px}
+
+.data.tags span a[href*="=FavoE8"]:after {
+	content: "TESTING TO SEE IF IT WORKS"
+}
