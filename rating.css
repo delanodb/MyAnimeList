@@ -1,7 +1,6 @@
 /* Plot - Visuals - Character - Sound - Enjoyment --- Uji_Gintoki_Bowl */
 
-/* Plot list */
-
+/* Plot */
 .data.tags span a[href*="=FavoP0"],
 .data.tags span a[href*="=FavoP1"],
 .data.tags span a[href*="=FavoP2"],
@@ -28,4 +27,57 @@
   margin-right: 2px; /* maybe ? */
   box-shadow:0 1px 2px rgba(0,0,0,.2)}
 
-.data.tags span a[href*="=FavoP1"]:before{content:"1";font-size:12px}
+/* adding the content */
+.data.tags span a[href*="=FavoP0"]:before{content:"0";font-size:11px}
+.data.tags span a[href*="=FavoP1"]:before{content:"1";font-size:11px}
+.data.tags span a[href*="=FavoP2"]:before{content:"2";font-size:11px}
+.data.tags span a[href*="=FavoP3"]:before{content:"3";font-size:11px}
+.data.tags span a[href*="=FavoP4"]:before{content:"4";font-size:11px}
+.data.tags span a[href*="=FavoP5"]:before{content:"5";font-size:11px}
+.data.tags span a[href*="=FavoP6"]:before{content:"6";font-size:11px}
+.data.tags span a[href*="=FavoP7"]:before{content:"7";font-size:11px}
+.data.tags span a[href*="=FavoP8"]:before{content:"8";font-size:11px}
+.data.tags span a[href*="=FavoP9"]:before{content:"9";font-size:11px}
+.data.tags span a[href*="=FavoP10"]:before{content:"10";font-size:11px}
+
+
+/* --------------------------------------------------------------------------------------------- */
+/* Visuals */
+
+.data.tags span a[href*="=FavoV0"],
+.data.tags span a[href*="=FavoV1"],
+.data.tags span a[href*="=FavoV2"],
+.data.tags span a[href*="=FavoV3"],
+.data.tags span a[href*="=FavoV4"],
+.data.tags span a[href*="=FavoV5"],
+.data.tags span a[href*="=FavoV6"],
+.data.tags span a[href*="=FavoV7"],
+.data.tags span a[href*="=FavoV8"],
+.data.tags span a[href*="=FavoV9"],
+.data.tags span a[href*="=FavoV10"]{
+  position:absolute;
+  left:675px; /* used for lining lef to right */
+  top:calc(5% - 0px); /* used of lining top to bottom */
+  width:18px;
+  height:18px;
+  padding: 1px 4px !important; /* need this */
+  background:#d60076;
+  border-radius: 0; /* need this */
+  color:white!important;
+  font-size:0!important;
+  line-height:18px;
+  overflow:hidden;
+  margin-right: 2px; /* maybe ? */
+  box-shadow:0 1px 2px rgba(0,0,0,.2)}
+
+.data.tags span a[href*="=FavoV0"]:before{content:"0";font-size:11px}
+.data.tags span a[href*="=FavoV1"]:before{content:"1";font-size:11px}
+.data.tags span a[href*="=FavoV2"]:before{content:"2";font-size:11px}
+.data.tags span a[href*="=FavoV3"]:before{content:"3";font-size:11px}
+.data.tags span a[href*="=FavoV4"]:before{content:"4";font-size:11px}
+.data.tags span a[href*="=FavoV5"]:before{content:"5";font-size:11px}
+.data.tags span a[href*="=FavoV6"]:before{content:"6";font-size:11px}
+.data.tags span a[href*="=FavoV7"]:before{content:"7";font-size:11px}
+.data.tags span a[href*="=FavoV8"]:before{content:"8";font-size:11px}
+.data.tags span a[href*="=FavoV9"]:before{content:"9";font-size:11px}
+.data.tags span a[href*="=FavoV10"]:before{content:"10";font-size:11px}
