@@ -14,10 +14,10 @@
 .data.studio span a[href$="/4"] { background: #ffdf00; color: black !important }
 
 /* Kyoto Animation */
-.data.studio span a[href$="/2"] { background: white; color: #e84c18 !important }
+.data.studio span a[href$="/2"] { background: #ffffff; color: #e84c18 !important }
 
 /* White Fox */
-.data.studio span a[href$="/314"] { background: white; color: #0482d0 !important }
+.data.studio span a[href$="/314"] { background: #ffffff; color: #0482d0 !important }
 
 /* Studio Deen */
-.data.studio span a[href$="/37"] { background: white; color: #1180c5 !important }
+.data.studio span a[href$="/37"] { background: #ffffff; color: #1180c5 !important }
