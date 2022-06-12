@@ -10,9 +10,9 @@ https://github.com/ValerioLyndon/Theme-Customiser
 :root{
   --name:none;
   --avatar:none;
-  --banner:url(https://i.imgur.com/VoPJz2S.jpg);
-  --character:url(https://i.imgur.com/6IPyngH.png);
-  --background:none;
+  --banner:none; /* url(https://i.imgur.com/VoPJz2S.jpg) */
+  --character:none; /* url(https://i.imgur.com/6IPyngH.png) */
+  --background:url(https://i.imgur.com/hFijppc.png);
   --pbg:#efefef;
   --bg:#fff;
   --bg-dark:#ddd;
@@ -312,7 +312,7 @@ a:hover{color:var(--accent)}#recaptcha-terms,
 /*-S-T-A-R-T--------------------*\
 | Dark Mode R3.4                 |
 \*------------------------------*/
-:root{--banner:url(https://i.imgur.com/WaLokPG.jpg);
+:root{--banner:url(https://i.postimg.cc/bNTrMYgj/Screenshot-1.png);
 	--character:url(https://i.imgur.com/h8HW1jf.png);
 	--pbg:#161616;--bg:#212121;
 	--bg-dark:#444;--text:#ababab;
