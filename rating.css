@@ -1,4 +1,4 @@
-/* Plot - Visuals - Character - Sound - Enjoyment --- Uji_Gintoki_Bowl */
+/* Plot - Visuals - Characters - Sound - Enjoyment --- Uji_Gintoki_Bowl */
 
 /* Plot */
 .data.tags span a[href*="=FavoP0"],
@@ -81,3 +81,86 @@
 .data.tags span a[href*="=FavoV8"]:before{content:"8";font-size:11px}
 .data.tags span a[href*="=FavoV9"]:before{content:"9";font-size:11px}
 .data.tags span a[href*="=FavoV10"]:before{content:"10";font-size:11px}
+
+/* --------------------------------------------------------------------------------------------- */
+/* Characters */
+
+.data.tags span a[href*="=FavoC0"],
+.data.tags span a[href*="=FavoC1"],
+.data.tags span a[href*="=FavoC2"],
+.data.tags span a[href*="=FavoC3"],
+.data.tags span a[href*="=FavoC4"],
+.data.tags span a[href*="=FavoC5"],
+.data.tags span a[href*="=FavoC6"],
+.data.tags span a[href*="=FavoC7"],
+.data.tags span a[href*="=FavoC8"],
+.data.tags span a[href*="=FavoC9"],
+.data.tags span a[href*="=FavoC10"]{
+  position:absolute;
+  left:715px; /* used for lining lef to right */
+  top:calc(5% - 0px); /* used of lining top to bottom */
+  width:18px;
+  height:18px;
+  padding: 1px 1px !important; /* need this */
+  background:#d60076;
+  border-radius: 0; /* need this */
+  color:white!important;
+  font-size:0!important;
+  line-height:18px;
+  overflow:hidden;
+  margin-right: 2px; /* maybe ? */
+  box-shadow:0 1px 2px rgba(0,0,0,.2)}
+
+.data.tags span a[href*="=FavoC0"]:before{content:"0";font-size:11px}
+.data.tags span a[href*="=FavoC1"]:before{content:"1";font-size:11px}
+.data.tags span a[href*="=FavoC2"]:before{content:"2";font-size:11px}
+.data.tags span a[href*="=FavoC3"]:before{content:"3";font-size:11px}
+.data.tags span a[href*="=FavoC4"]:before{content:"4";font-size:11px}
+.data.tags span a[href*="=FavoC5"]:before{content:"5";font-size:11px}
+.data.tags span a[href*="=FavoC6"]:before{content:"6";font-size:11px}
+.data.tags span a[href*="=FavoC7"]:before{content:"7";font-size:11px}
+.data.tags span a[href*="=FavoC8"]:before{content:"8";font-size:11px}
+.data.tags span a[href*="=FavoC9"]:before{content:"9";font-size:11px}
+.data.tags span a[href*="=FavoC10"]:before{content:"10";font-size:11px}
+
+/* --------------------------------------------------------------------------------------------- */
+/* Sound */
+
+.data.tags span a[href*="=FavoS0"],
+.data.tags span a[href*="=FavoS1"],
+.data.tags span a[href*="=FavoS2"],
+.data.tags span a[href*="=FavoS3"],
+.data.tags span a[href*="=FavoS4"],
+.data.tags span a[href*="=FavoS5"],
+.data.tags span a[href*="=FavoS6"],
+.data.tags span a[href*="=FavoS7"],
+.data.tags span a[href*="=FavoS8"],
+.data.tags span a[href*="=FavoS9"],
+.data.tags span a[href*="=FavoS10"]{
+  position:absolute;
+  left:715px; /* used for lining lef to right */
+  top:calc(5% - 0px); /* used of lining top to bottom */
+  width:18px;
+  height:18px;
+  padding: 1px 1px !important; /* need this */
+  background:#d60076;
+  border-radius: 0; /* need this */
+  color:white!important;
+  font-size:0!important;
+  line-height:18px;
+  overflow:hidden;
+  margin-right: 2px; /* maybe ? */
+  box-shadow:0 1px 2px rgba(0,0,0,.2)}
+
+.data.tags span a[href*="=FavoS0"]:before{content:"0";font-size:11px}
+.data.tags span a[href*="=FavoS1"]:before{content:"1";font-size:11px}
+.data.tags span a[href*="=FavoS2"]:before{content:"2";font-size:11px}
+.data.tags span a[href*="=FavoS3"]:before{content:"3";font-size:11px}
+.data.tags span a[href*="=FavoS4"]:before{content:"4";font-size:11px}
+.data.tags span a[href*="=FavoS5"]:before{content:"5";font-size:11px}
+.data.tags span a[href*="=FavoS6"]:before{content:"6";font-size:11px}
+.data.tags span a[href*="=FavoS7"]:before{content:"7";font-size:11px}
+.data.tags span a[href*="=FavoS8"]:before{content:"8";font-size:11px}
+.data.tags span a[href*="=FavoS9"]:before{content:"9";font-size:11px}
+.data.tags span a[href*="=FavoS10"]:before{content:"10";font-size:11px}
+
