@@ -435,3 +435,31 @@ body::before {
 	background: linear-gradient(var(--row-tint),var(--row-tint)), var(--background) no-repeat center / cover fixed transparent !important;
 }
 /*------------------------E-N-D-*/
+
+/*-S-T-A-R-T--------------------*\
+| Overflow Titles on Hover       |
+\*------------------------------*/
+
+.data.title .link.sort {
+  width: 45ch;
+	display: block;
+	height: 16px;
+	border-radius: 3px;
+	padding: 0;
+	margin-right: 8px;
+	overflow: hidden;
+	white-space: normal;
+	transition: none !important;
+} .data.title .link.sort:hover {
+	z-index: 1;
+	height: auto;
+	padding: 2px 4px;
+	background: var(--btn-bg);
+	margin: 8px 0 0 -4px;
+	transform: translateY(-50%);
+}
+
+
+
+
+
