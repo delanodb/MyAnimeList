@@ -60,7 +60,7 @@
   top:calc(5% - 0px); /* used of lining top to bottom */
   width:18px;
   height:18px;
-  padding: 1px 4px !important; /* need this */
+  padding: 1px 1px !important; /* need this */
   background:#d60076;
   border-radius: 0; /* need this */
   color:white!important;
