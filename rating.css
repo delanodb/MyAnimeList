@@ -1,1 +1,31 @@
 /* Plot - Visuals - Character - Sound - Enjoyment --- Uji_Gintoki_Bowl */
+
+/* Plot list */
+
+.data.tags span a[href*="=FavoP0"],
+.data.tags span a[href*="=FavoP1"],
+.data.tags span a[href*="=FavoP2"],
+.data.tags span a[href*="=FavoP3"],
+.data.tags span a[href*="=FavoP4"],
+.data.tags span a[href*="=FavoP5"],
+.data.tags span a[href*="=FavoP6"],
+.data.tags span a[href*="=FavoP7"],
+.data.tags span a[href*="=FavoP8"],
+.data.tags span a[href*="=FavoP9"],
+.data.tags span a[href*="=FavoP10"]{
+  position:absolute;
+  left:675px; /* used for lining lef to right */
+  top:calc(5% - 0px); /* used of lining top to bottom */
+  width:18px;
+  height:18px;
+  padding-right: 1px !important; /* need this */
+  background:#d60076;
+  border-radius:8.5px 0 0 8.5px; /* need this */
+  color:white!important;
+  font-size:0!important;
+  line-height:20px;
+  overflow:hidden;
+  margin-right: 2px; /* maybe ? */
+  box-shadow:0 1px 2px rgba(0,0,0,.2)}
+
+.data.tags span a[href*="=FavoP1"]:before{content:"1";font-size:12px}
