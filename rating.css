@@ -184,7 +184,7 @@
   height:18px;
   padding-left: 1px !important; /* need this */
   background:#d60076;
-  border-radius:8.5px 0 0 8.5px; /* need this */
+  border-radius: 0 8.5px 8.5px 0; /* need this */
   color:white!important;
   font-size:0!important;
   line-height:18px;
