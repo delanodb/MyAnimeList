@@ -312,8 +312,8 @@ a:hover{color:var(--accent)}#recaptcha-terms,
 /*-S-T-A-R-T--------------------*\
 | Dark Mode R3.4                 |
 \*------------------------------*/
-:root{--banner:url(https://i.postimg.cc/bNTrMYgj/Screenshot-1.png);
-	--character:url(https://i.imgur.com/h8HW1jf.png);
+:root{--banner:none; /* url(https://i.postimg.cc/bNTrMYgj/Screenshot-1.png) */
+	--character:none; /* url(https://i.imgur.com/h8HW1jf.png) */
 	--pbg:#161616;--bg:#212121;
 	--bg-dark:#444;--text:#ababab;
 	--text-h:#416abe;--text-dim:#777;
@@ -400,7 +400,7 @@ a:hover{color:var(--accent)}#recaptcha-terms,
 
 body::before {
 	/* change colour here */
-	background: rgba(0, 0, 0, 0.8);
+	background: rgba(0, 0, 0, 0.6);
 	
 	content: "";
 	z-index: -1;
