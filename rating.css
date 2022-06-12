@@ -13,7 +13,7 @@
 .data.tags span a[href*="=FavoP9"],
 .data.tags span a[href*="=FavoP10"]{
   position:absolute;
-  left:675px; /* used for lining lef to right */
+  left:677px; /* used for lining lef to right */
   top:calc(5% - 0px); /* used of lining top to bottom */
   width:18px;
   height:18px;
@@ -56,7 +56,7 @@
 .data.tags span a[href*="=FavoV9"],
 .data.tags span a[href*="=FavoV10"]{
   position:absolute;
-  left:695px; /* used for lining lef to right */
+  left:697px; /* used for lining lef to right */
   top:calc(5% - 0px); /* used of lining top to bottom */
   width:18px;
   height:18px;
@@ -97,7 +97,7 @@
 .data.tags span a[href*="=FavoC9"],
 .data.tags span a[href*="=FavoC10"]{
   position:absolute;
-  left:715px; /* used for lining lef to right */
+  left:717px; /* used for lining lef to right */
   top:calc(5% - 0px); /* used of lining top to bottom */
   width:18px;
   height:18px;
@@ -138,7 +138,7 @@
 .data.tags span a[href*="=FavoS9"],
 .data.tags span a[href*="=FavoS10"]{
   position:absolute;
-  left:735px; /* used for lining lef to right */
+  left:737px; /* used for lining lef to right */
   top:calc(5% - 0px); /* used of lining top to bottom */
   width:18px;
   height:18px;
@@ -164,3 +164,43 @@
 .data.tags span a[href*="=FavoS9"]:before{content:"9";font-size:11px}
 .data.tags span a[href*="=FavoS10"]:before{content:"10";font-size:11px}
 
+/* --------------------------------------------------------------------------------------------- */
+/* Enjoyment */
+.data.tags span a[href*="=FavoE0"],
+.data.tags span a[href*="=FavoE1"],
+.data.tags span a[href*="=FavoE2"],
+.data.tags span a[href*="=FavoE3"],
+.data.tags span a[href*="=FavoE4"],
+.data.tags span a[href*="=FavoE5"],
+.data.tags span a[href*="=FavoE6"],
+.data.tags span a[href*="=FavoE7"],
+.data.tags span a[href*="=FavoE8"],
+.data.tags span a[href*="=FavoE9"],
+.data.tags span a[href*="=FavoE10"]{
+  position:absolute;
+  left:757px; /* used for lining lef to right */
+  top:calc(5% - 0px); /* used of lining top to bottom */
+  width:18px;
+  height:18px;
+  padding-left: 1px !important; /* need this */
+  background:#d60076;
+  border-radius:8.5px 0 0 8.5px; /* need this */
+  color:white!important;
+  font-size:0!important;
+  line-height:18px;
+  overflow:hidden;
+  margin-right: 2px; /* maybe ? */
+  box-shadow:0 1px 2px rgba(0,0,0,.2)}
+
+/* adding the content */
+.data.tags span a[href*="=FavoE0"]:before{content:"0";font-size:11px}
+.data.tags span a[href*="=FavoE1"]:before{content:"1";font-size:11px}
+.data.tags span a[href*="=FavoE2"]:before{content:"2";font-size:11px}
+.data.tags span a[href*="=FavoE3"]:before{content:"3";font-size:11px}
+.data.tags span a[href*="=FavoE4"]:before{content:"4";font-size:11px}
+.data.tags span a[href*="=FavoE5"]:before{content:"5";font-size:11px}
+.data.tags span a[href*="=FavoE6"]:before{content:"6";font-size:11px}
+.data.tags span a[href*="=FavoE7"]:before{content:"7";font-size:11px}
+.data.tags span a[href*="=FavoE8"]:before{content:"8";font-size:11px}
+.data.tags span a[href*="=FavoE9"]:before{content:"9";font-size:11px}
+.data.tags span a[href*="=FavoE10"]:before{content:"10";font-size:11px}
