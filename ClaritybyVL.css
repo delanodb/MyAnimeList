@@ -6,10 +6,6 @@ https://github.com/ValerioLyndon/Theme-Customiser
 | "Clarity" by Valerio Lyndon    |
 | R27.3                          |
 \*==============================*/
-@\import "https://fonts.googleapis.com/css?family=Oswald";
-@\import "https://valeriolyndon.github.io/MAL-Public-List-Designs/resources/font-awesome-4.7.0/css/font-awesome-force-legacy.min.css";
-@\import "https://malscraper.azurewebsites.net/covers/all/anime/presets/dataimagelinkbefore";
-@\import "https://malscraper.azurewebsites.net/covers/all/manga/presets/dataimagelinkbefore";
 
 :root{
   --name:none;
