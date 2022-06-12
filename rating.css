@@ -56,7 +56,7 @@
 .data.tags span a[href*="=FavoV9"],
 .data.tags span a[href*="=FavoV10"]{
   position:absolute;
-  left:675px; /* used for lining lef to right */
+  left:695px; /* used for lining lef to right */
   top:calc(5% - 0px); /* used of lining top to bottom */
   width:18px;
   height:18px;
