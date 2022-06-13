@@ -1,1 +1,26 @@
+.data.tags span a[href*="=Epic%20OST"],
+.data.tags span a[href*="=Great%20OST"]{
+  background-image: url();
+}
+.data.tags span a[href*="=Amazing%20Fights"]{
+  background-image: url();
+}
+.data.tags span a[href*="=Art%2FAnimation"]{
+  background-image: url();
+}
 
+.data.tags span a[href*="=Samurai"]{
+  background-image: url();
+}
+.data.tags span a[href*="=Isekai"]{
+  background-image: url();
+}
+.data.tags span a[href*="=Historical"]{
+  background-image: url();
+}
+.data.tags span a[href*="=Emotion"]{
+  background-image: url();
+}
+.data.tags span a[href*="=Romance"]{
+  background-image: url();
+}
