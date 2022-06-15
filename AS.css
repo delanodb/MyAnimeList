@@ -1,0 +1,296 @@
+/*-S-T-A-R-T--------------------*\
+| Advanced Scoring               |
+\*------------------------------*/
+.data.tags {
+	/* horizontal/vertical offset from left of list */
+	--x-offset: 300px;
+	--y-offset: calc(70%);
+}
+/* add decorative score background */
+.data.tags div:after {
+	content: "";
+	position: absolute;
+	top: var(--y-offset);
+	left: var(--x-offset);
+	width: 98px;
+	height: 17px;
+	--i: var(--bg);
+	background-image: linear-gradient(
+		to right,
+		#355070 0px, #355070 18px, /* 1st box */
+		transparent 18px, transparent 20px,
+		#6d597a 20px, #6d597a 38px, /* 2nd box */
+		transparent 38px, transparent 40px,
+		#b56576 40px, #b56576  58px, /* 3rd box */
+		transparent 58px, transparent 60px,
+		#e56b6f 60px, #e56b6f  78px, /* 4th box */
+		transparent 78px, transparent 80px,
+		#eaac8b 80px, #eaac8b 98px /* 5th box */
+	);
+	border-radius: 8.5px;
+}
+
+/* reposition score tags */
+.data.tags a[href$="tag=-"],
+.data.tags a[href$="tag=1"],
+.data.tags a[href$="tag=2"],
+.data.tags a[href$="tag=3"],
+.data.tags a[href$="tag=4"],
+.data.tags a[href$="tag=5"],
+.data.tags a[href$="tag=6"],
+.data.tags a[href$="tag=7"],
+.data.tags a[href$="tag=8"],
+.data.tags a[href$="tag=9"],
+.data.tags a[href$="tag=10"] {
+	position: absolute;
+	top: var(--y-offset);
+	z-index: 1;
+	width: 18px;
+	padding: 1px 0;
+	margin: 0;
+	pointer-events: auto;
+	background: none; /* FIX FOR TRANSPARENT */
+}
+
+.data.tags a[href$="tag=-"]:hover,
+.data.tags a[href$="tag=1"]:hover,
+.data.tags a[href$="tag=2"]:hover,
+.data.tags a[href$="tag=3"]:hover,
+.data.tags a[href$="tag=4"]:hover,
+.data.tags a[href$="tag=5"]:hover,
+.data.tags a[href$="tag=6"]:hover,
+.data.tags a[href$="tag=7"]:hover,
+.data.tags a[href$="tag=8"]:hover,
+.data.tags a[href$="tag=9"]:hover,
+.data.tags a[href$="tag=10"]:hover {
+	cursor: default; /* resets cursor - delete this line to restore pointer cursor */
+	background: transparent !important; /* background on hover */
+}
+
+.data.tags span:nth-last-child(5) a[href$="tag=-"],
+.data.tags span:nth-last-child(5) a[href$="tag=1"],
+.data.tags span:nth-last-child(5) a[href$="tag=2"],
+.data.tags span:nth-last-child(5) a[href$="tag=3"],
+.data.tags span:nth-last-child(5) a[href$="tag=4"],
+.data.tags span:nth-last-child(5) a[href$="tag=5"],
+.data.tags span:nth-last-child(5) a[href$="tag=6"],
+.data.tags span:nth-last-child(5) a[href$="tag=7"],
+.data.tags span:nth-last-child(5) a[href$="tag=8"],
+.data.tags span:nth-last-child(5) a[href$="tag=9"],
+.data.tags span:nth-last-child(5) a[href$="tag=10"] {
+	left: var(--x-offset);
+	border-radius: 8.5px 0 0 8.5px;
+	color: #ffffff !important; /* box 1 colour */
+}
+
+.data.tags span:nth-last-child(4) a[href$="tag=-"],
+.data.tags span:nth-last-child(4) a[href$="tag=1"],
+.data.tags span:nth-last-child(4) a[href$="tag=2"],
+.data.tags span:nth-last-child(4) a[href$="tag=3"],
+.data.tags span:nth-last-child(4) a[href$="tag=4"],
+.data.tags span:nth-last-child(4) a[href$="tag=5"],
+.data.tags span:nth-last-child(4) a[href$="tag=6"],
+.data.tags span:nth-last-child(4) a[href$="tag=7"],
+.data.tags span:nth-last-child(4) a[href$="tag=8"],
+.data.tags span:nth-last-child(4) a[href$="tag=9"],
+.data.tags span:nth-last-child(4) a[href$="tag=10"] {
+	left: calc(var(--x-offset) + 20px);
+	border-radius: 0;
+	color: #ffffff !important; /* box 2 colour */
+}
+
+.data.tags span:nth-last-child(3) a[href$="tag=-"],
+.data.tags span:nth-last-child(3) a[href$="tag=1"],
+.data.tags span:nth-last-child(3) a[href$="tag=2"],
+.data.tags span:nth-last-child(3) a[href$="tag=3"],
+.data.tags span:nth-last-child(3) a[href$="tag=4"],
+.data.tags span:nth-last-child(3) a[href$="tag=5"],
+.data.tags span:nth-last-child(3) a[href$="tag=6"],
+.data.tags span:nth-last-child(3) a[href$="tag=7"],
+.data.tags span:nth-last-child(3) a[href$="tag=8"],
+.data.tags span:nth-last-child(3) a[href$="tag=9"],
+.data.tags span:nth-last-child(3) a[href$="tag=10"] {
+	left: calc(var(--x-offset) + 40px);
+	border-radius: 0;
+	color: #ffffff !important; /* box 3 colour */
+}
+
+.data.tags span:nth-last-child(2) a[href$="tag=-"],
+.data.tags span:nth-last-child(2) a[href$="tag=1"],
+.data.tags span:nth-last-child(2) a[href$="tag=2"],
+.data.tags span:nth-last-child(2) a[href$="tag=3"],
+.data.tags span:nth-last-child(2) a[href$="tag=4"],
+.data.tags span:nth-last-child(2) a[href$="tag=5"],
+.data.tags span:nth-last-child(2) a[href$="tag=6"],
+.data.tags span:nth-last-child(2) a[href$="tag=7"],
+.data.tags span:nth-last-child(2) a[href$="tag=8"],
+.data.tags span:nth-last-child(2) a[href$="tag=9"],
+.data.tags span:nth-last-child(2) a[href$="tag=10"] {
+	left: calc(var(--x-offset) + 60px);
+	border-radius: 0;
+	color: #ffffff !important; /* box 4 colour */
+}
+
+.data.tags span:nth-last-child(1) a[href$="tag=-"],
+.data.tags span:nth-last-child(1) a[href$="tag=1"],
+.data.tags span:nth-last-child(1) a[href$="tag=2"],
+.data.tags span:nth-last-child(1) a[href$="tag=3"],
+.data.tags span:nth-last-child(1) a[href$="tag=4"],
+.data.tags span:nth-last-child(1) a[href$="tag=5"],
+.data.tags span:nth-last-child(1) a[href$="tag=6"],
+.data.tags span:nth-last-child(1) a[href$="tag=7"],
+.data.tags span:nth-last-child(1) a[href$="tag=8"],
+.data.tags span:nth-last-child(1) a[href$="tag=9"],
+.data.tags span:nth-last-child(1) a[href$="tag=10"] {
+	left: calc(var(--x-offset) + 80px);
+	border-radius: 0 8.5px 8.5px 0;
+	color: #ffffff !important; /* box 5 colour */
+}
+
+/* add description on hover & remove pseudo comma from tags */
+a[href$="tag=-"]:before,
+a[href$="tag=1"]:before,
+a[href$="tag=2"]:before,
+a[href$="tag=3"]:before,
+a[href$="tag=4"]:before,
+a[href$="tag=5"]:before,
+a[href$="tag=6"]:before,
+a[href$="tag=7"]:before,
+a[href$="tag=8"]:before,
+a[href$="tag=9"]:before,
+a[href$="tag=10"]:before {
+	content: "" !important;
+	position: absolute;
+	top: 17px;
+	left: calc(50% - 5px);
+	z-index: 5;
+	
+	display: block;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent var(--text-dim) transparent;
+	opacity: 0;
+	transition: opacity 0.15s ease;
+	pointer-events: none;
+}
+
+a[href$="tag=-"]:after,
+a[href$="tag=1"]:after,
+a[href$="tag=2"]:after,
+a[href$="tag=3"]:after,
+a[href$="tag=4"]:after,
+a[href$="tag=5"]:after,
+a[href$="tag=6"]:after,
+a[href$="tag=7"]:after,
+a[href$="tag=8"]:after,
+a[href$="tag=9"]:after,
+a[href$="tag=10"]:after {
+	content: "Story"; /* box 1 description */
+	position: absolute;
+	top: 27px;
+	left: 50%;
+	z-index: 5;
+	
+	display: block;
+	width: auto;
+	max-width: 340px;
+	height: auto;
+	padding: 4px 8px;
+	background: var(--btn-bg);
+
+	border: 1px solid var(--text-dim);
+	border-radius: 4px;
+	box-sizing: border-box;
+	
+	color: var(--text);
+	font: 11px/15px Arial, Verdana;
+	text-align: left;
+	white-space: pre-wrap;
+	
+	opacity: 0;
+	transition: opacity 0.15s ease;
+	transform: translateX(-50%);
+	pointer-events: none;
+}
+
+a[href$="tag=-"]:hover:before,
+a[href$="tag=1"]:hover:before,
+a[href$="tag=2"]:hover:before,
+a[href$="tag=3"]:hover:before,
+a[href$="tag=4"]:hover:before,
+a[href$="tag=5"]:hover:before,
+a[href$="tag=6"]:hover:before,
+a[href$="tag=7"]:hover:before,
+a[href$="tag=8"]:hover:before,
+a[href$="tag=9"]:hover:before,
+a[href$="tag=10"]:hover:before,
+a[href$="tag=-"]:hover:after,
+a[href$="tag=1"]:hover:after,
+a[href$="tag=2"]:hover:after,
+a[href$="tag=3"]:hover:after,
+a[href$="tag=4"]:hover:after,
+a[href$="tag=5"]:hover:after,
+a[href$="tag=6"]:hover:after,
+a[href$="tag=7"]:hover:after,
+a[href$="tag=8"]:hover:after,
+a[href$="tag=9"]:hover:after,
+a[href$="tag=10"]:hover:after {
+	opacity: 1;
+}
+
+span:nth-last-child(4) a[href$="tag=-"]:after,
+span:nth-last-child(4) a[href$="tag=1"]:after,
+span:nth-last-child(4) a[href$="tag=2"]:after,
+span:nth-last-child(4) a[href$="tag=3"]:after,
+span:nth-last-child(4) a[href$="tag=4"]:after,
+span:nth-last-child(4) a[href$="tag=5"]:after,
+span:nth-last-child(4) a[href$="tag=6"]:after,
+span:nth-last-child(4) a[href$="tag=7"]:after,
+span:nth-last-child(4) a[href$="tag=8"]:after,
+span:nth-last-child(4) a[href$="tag=9"]:after,
+span:nth-last-child(4) a[href$="tag=10"]:after {
+	content: "Art"; /* box 2 description */
+}
+
+span:nth-last-child(3) a[href$="tag=-"]:after,
+span:nth-last-child(3) a[href$="tag=1"]:after,
+span:nth-last-child(3) a[href$="tag=2"]:after,
+span:nth-last-child(3) a[href$="tag=3"]:after,
+span:nth-last-child(3) a[href$="tag=4"]:after,
+span:nth-last-child(3) a[href$="tag=5"]:after,
+span:nth-last-child(3) a[href$="tag=6"]:after,
+span:nth-last-child(3) a[href$="tag=7"]:after,
+span:nth-last-child(3) a[href$="tag=8"]:after,
+span:nth-last-child(3) a[href$="tag=9"]:after,
+span:nth-last-child(3) a[href$="tag=10"]:after {
+	content: "Characters"; /* box 3 description */
+}
+
+span:nth-last-child(2) a[href$="tag=-"]:after,
+span:nth-last-child(2) a[href$="tag=1"]:after,
+span:nth-last-child(2) a[href$="tag=2"]:after,
+span:nth-last-child(2) a[href$="tag=3"]:after,
+span:nth-last-child(2) a[href$="tag=4"]:after,
+span:nth-last-child(2) a[href$="tag=5"]:after,
+span:nth-last-child(2) a[href$="tag=6"]:after,
+span:nth-last-child(2) a[href$="tag=7"]:after,
+span:nth-last-child(2) a[href$="tag=8"]:after,
+span:nth-last-child(2) a[href$="tag=9"]:after,
+span:nth-last-child(2) a[href$="tag=10"]:after {
+	content: "Sound"; /* box 4 description */
+}
+
+span:nth-last-child(1) a[href$="tag=-"]:after,
+span:nth-last-child(1) a[href$="tag=1"]:after,
+span:nth-last-child(1) a[href$="tag=2"]:after,
+span:nth-last-child(1) a[href$="tag=3"]:after,
+span:nth-last-child(1) a[href$="tag=4"]:after,
+span:nth-last-child(1) a[href$="tag=5"]:after,
+span:nth-last-child(1) a[href$="tag=6"]:after,
+span:nth-last-child(1) a[href$="tag=7"]:after,
+span:nth-last-child(1) a[href$="tag=8"]:after,
+span:nth-last-child(1) a[href$="tag=9"]:after,
+span:nth-last-child(1) a[href$="tag=10"]:after {
+	content: "Enjoyment"; /* box 5 description */
+}
+/*------------------------E-N-D-*/
