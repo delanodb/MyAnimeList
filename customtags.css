@@ -11,6 +11,7 @@
 
 .data.tags span a[href*="=Samurai"]{
   background-image: url(https://i.imgur.com/vcPdCQP.gif);
+  color: green !important;
 }
 .data.tags span a[href*="=Isekai"]{
   background-image: url();
@@ -23,4 +24,5 @@
 }
 .data.tags span a[href*="=Romance"]{
   background-image: url(https://i.imgur.com/ElfEwdI.gif);
+  color: black !important;
 }
