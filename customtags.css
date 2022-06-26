@@ -1,6 +1,7 @@
 .data.tags span a[href*="=Epic%20OST"],
 .data.tags span a[href*="=Great%20OST"]{
-  background-image: url();
+  background-image: url(https://i.imgur.com/LU67Wvy.gif);
+  color: #ffffff !important;
 }
 .data.tags span a[href*="=Amazing%20Fights"]{
   background-image: url();
