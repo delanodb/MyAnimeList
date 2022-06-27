@@ -1,31 +1,35 @@
-.data.tags span a[href*="=Epic%20OST"],
-.data.tags span a[href*="=Great%20OST"]{
+/* DONE */
+.data.tags span a[href*="=Amazing%20OST"]{
   background-image: url(https://i.imgur.com/LU67Wvy.gif);
   color: #ffffff !important;
 }
-.data.tags span a[href*="=Amazing%20Fights"]{
-  background-image: url();
-}
-.data.tags span a[href*="=Art%2FAnimation"]{
-  background-image: url();
-}
-
 .data.tags span a[href*="=Samurai"]{
   background-image: url(https://i.imgur.com/sjgieFJ.gif);
   color: #ffffff !important;
 }
-.data.tags span a[href*="=Isekai"]{
+.data.tags span a[href*="=Emotion"]{
+  background-image: url(https://i.imgur.com/wROLOsg.gif);
+  color: #ffffff !important;
+}
 
-  color: white !important;
+/* TO DO */
+.data.tags span a[href*="=Amazing%20Fights"]{
+  background-color: #70644A;
+  color: #ffffff !important;
+}
+.data.tags span a[href*="=Art%2FAnimation"]{
+  background-color: #70644A;
+  color: #ffffff !important;
+}
+.data.tags span a[href*="=Isekai"]{
+  background-color: #70644A;
+  color: #ffffff !important;
 }
 .data.tags span a[href*="=Historical"]{
   background-color: #70644A;
-  color: white !important;
-}
-.data.tags span a[href*="=Emotion"]{
-  background-image: url(https://i.imgur.com/wROLOsg.gif);
+  color: #ffffff !important;
 }
 .data.tags span a[href*="=Romance"]{
   background-color: #E9606C;
-  color: white !important;
+  color: #ffffff !important;
 }
