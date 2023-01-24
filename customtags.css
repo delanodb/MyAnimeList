@@ -17,15 +17,11 @@
 }
 .data.tags span a[href*="=Isekai"]{
   background-image: url(https://i.imgur.com/eqHrmC2.gif);
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 
 
 /* TO DO */
-.data.tags span a[href*="=Isekai(ish)"]{
-  background-color: #296d98;
-  color: #ffffff !important;
-}
 .data.tags span a[href*="=Historical"]{
   background-image: url(https://i.imgur.com/ny0C5sQ.png);
   color: #ffffff !important;
