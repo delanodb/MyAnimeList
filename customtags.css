@@ -11,6 +11,11 @@
   background-image: url(https://i.imgur.com/wROLOsg.gif);
   color: #ffffff !important;
 }
+.data.tags span a[href*="=Romance"]{
+  background-image: url(https://i.imgur.com/OkIRtaU.gif);
+  color: #ffffff !important;
+}
+
 
 /* TO DO */
 .data.tags span a[href*="=Isekai(ish)"]{
@@ -21,7 +26,4 @@
   background-image: url(https://i.imgur.com/ny0C5sQ.png);
   color: #ffffff !important;
 }
-.data.tags span a[href*="=Romance"]{
-  background-color: #E9606C;
-  color: #ffffff !important;
-}
+
