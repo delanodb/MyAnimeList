@@ -15,6 +15,10 @@
   background-image: url(https://i.imgur.com/OkIRtaU.gif);
   color: #ffffff !important;
 }
+.data.tags span a[href*="=Isekai"]{
+  background-image: url(https://i.imgur.com/eqHrmC2.gif);
+  color: #ffffff !important;
+}
 
 
 /* TO DO */
