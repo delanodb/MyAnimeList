@@ -19,11 +19,11 @@
   background-image: url(https://i.imgur.com/cMbYgSB.gif);
   color: #000000 !important;
 }
-
+.data.tags span a[href*="=Historical"]{
+  background-image: url(https://i.imgur.com/oDGFedR.gif);
+  color: #000000 !important;
+}
 
 /* TO DO */
-.data.tags span a[href*="=Historical"]{
-  background-image: url(https://i.imgur.com/ny0C5sQ.png);
-  color: #ffffff !important;
-}
+/* Adult Cast */
 
