@@ -24,3 +24,9 @@
 
 /* Wit Studio */
 .data.studio span a[href$="/858"] { background: #ffffff; color: #238a37 !important }
+
+/* CloverWorks */
+.data.studio span a[href$="/1835"] { background: #a95b96; color: #fefefe !important }
+
+/* LINDENFILMS */
+.data.studio span a[href$="/839"] { background: #492e01; color: #fdfbfc !important }
